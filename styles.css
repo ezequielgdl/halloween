@@ -16,3 +16,7 @@ body {
     font-size: 68px;
 }
 
+#message {
+    color: red;
+}
+
