@@ -7,7 +7,7 @@ function firstPassword() {
     let passwordContainer = document.getElementById("password-container");
     let itinerary = document.getElementById("itinerary");
     const image = document.createElement('img');
-    image.src  = '/images/IMG_1107.jpg';
+    image.src  = 'https://freeimage.host/i/DsSutf';
     image.id = 'image';
     if (answer === "calendar") {
         document.querySelector('.main-container').appendChild(image);
