@@ -35,6 +35,7 @@ function firstPassword() {
         itineraryShow.id = "itinerary";
         message.textContent = "";
         riddle.textContent = "There's one more riddle, but it's not here... it's beneath one of these things: ";
+        document.querySelector('.main-container').appendChild(lastImage);
     }
     else {
         message.textContent = "Incorrect. Try again...";
