@@ -7,6 +7,11 @@ body {
     font-family: 'Edu VIC WA NT Beginner', Helvetica, Arial;
 }
 
+#cleaver {
+    height: auto;
+    width: 10%;
+}
+
 .main-container {
     width: auto;
     height: 500px;
@@ -27,6 +32,10 @@ body {
     font-size: 32px;
     line-height: 1.6;
     text-align: center;
+}
+
+#itinerary-hide {
+    display: none;
 }
 
 #riddle {
@@ -57,6 +66,6 @@ button {
 }
 
 #image {
-    width: 40%;
+    width: 75%;
     height: auto;
 }

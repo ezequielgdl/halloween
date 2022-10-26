@@ -6,9 +6,13 @@ function firstPassword() {
     let riddle = document.getElementById("riddle");
     let passwordContainer = document.getElementById("password-container");
     let itinerary = document.getElementById("itinerary");
+    let itineraryShow = document.getElementById("itinerary-show");
     const image = document.createElement('img');
-    image.src  = 'https://freeimage.host/i/DsSutf';
+    image.src  = 'https://i.postimg.cc/QCv8Ln7T/IMG-1107.jpg';
     image.id = 'image';
+    const lastImage = document.createElement('img');
+    lastImage.src = "https://i.postimg.cc/c4CfMKTg/pastiche.jpg";
+    lastImage.id = "last-image";
     if (answer === "calendar") {
         document.querySelector('.main-container').appendChild(image);
         riddle.textContent = "ENTER THE NUMERIC CODE";
@@ -28,10 +32,9 @@ function firstPassword() {
         message.textContent = "";
         itinerary.id = "itinerary-show";
     } else if (answer === "death" || answer === "DEATH") {
-        alert("Lucky...");
+        itineraryShow.id = "itinerary";
         message.textContent = "";
-        itinerary.id = "itinerary";
-        riddle.textContent = "There's one more riddle, but it's not here... it's in one of these places: ";
+        riddle.textContent = "There's one more riddle, but it's not here... it's beneath one of these things: ";
     }
     else {
         message.textContent = "Incorrect. Try again...";
